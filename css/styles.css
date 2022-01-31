@@ -1,0 +1,526 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container {
+  position: relative;
+  width: 100%;
+  background: url("../pictures/Background.png");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .container .row1 {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 46px 48px;
+}
+
+header .container .row1 .dreamshare {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header .container .row1 .controls .login {
+  background: none;
+  border: 0;
+}
+
+header .container .row1 .controls .login a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+header .container .row1 .controls .signup {
+  margin-left: 19px;
+  background: none;
+  border-radius: 30px;
+  border: solid white 2px;
+  padding: 5px 15px;
+}
+
+header .container .row1 .controls .signup a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+header .container .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 110px;
+}
+
+header .container .row2 .share0 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  color: white;
+}
+
+header .container .row2 .share {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  color: white;
+}
+
+header .container .row2 .share2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+header .container .row2 button {
+  background-color: #FF4E50;
+  border-radius: 30px;
+  border: 0;
+  padding: 12px 18.5px;
+  margin-top: 33px;
+  margin-bottom: 217px;
+}
+
+header .container .row2 button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.main {
+  padding: 0 15%;
+  width: 100%;
+}
+
+.main .main-paragraph {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 94px;
+  margin-bottom: 32px;
+}
+
+.main .dreamshare-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .dreamshare-container .dreamshare1 {
+  width: 32%;
+  background-image: url("../pictures/Step 1 image.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2% 2%;
+}
+
+.main .dreamshare-container .dreamshare1 div {
+  padding: 5px 14px;
+  background-color: #FF4E50;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.main .dreamshare-container .dreamshare1 div p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+}
+
+.main .dreamshare-container .dreamshare1 .p1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin: 7% 0;
+}
+
+.main .dreamshare-container .dreamshare1 .p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.main .dreamshare-container .dreamshare2 {
+  width: 32%;
+  background-image: url("../pictures/ObjectB.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2% 2%;
+}
+
+.main .dreamshare-container .dreamshare2 div {
+  padding: 5px 14px;
+  background-color: #FF4E50;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.main .dreamshare-container .dreamshare2 div p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+}
+
+.main .dreamshare-container .dreamshare2 .p1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin: 7% 0;
+}
+
+.main .dreamshare-container .dreamshare2 .p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.main .dreamshare-container .dreamshare3 {
+  width: 32%;
+  background-image: url("../pictures/ObjectC.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 2% 2%;
+}
+
+.main .dreamshare-container .dreamshare3 div {
+  padding: 5px 14px;
+  background-color: #FF4E50;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.main .dreamshare-container .dreamshare3 div p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+}
+
+.main .dreamshare-container .dreamshare3 .p1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin: 7% 0;
+}
+
+.main .dreamshare-container .dreamshare3 .p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.main .partner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .partner-container .partner {
+  width: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .partner-container .partner img {
+  width: 70%;
+}
+
+.main .partner-container .partner .p1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 17px;
+  margin-bottom: 12px;
+}
+
+.main .partner-container .partner .p2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.main .partner-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .partner-btn button {
+  margin-top: 55px;
+  width: 180px;
+  background: none;
+  border-radius: 30px;
+  border: solid #FF4E50 2px;
+  padding: 5px 15px;
+}
+
+.main .partner-btn button a {
+  text-decoration: none;
+  color: #FF4E50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.main .ideas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .ideas .first {
+  width: 31%;
+  background: url("../pictures/Bitmap.png");
+  background-size: cover !important;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2%;
+}
+
+.main .ideas .first p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+.main .ideas .second {
+  background: url("../pictures/Bitmap222.png");
+  background-size: cover !important;
+}
+
+.main .ideas .third {
+  background: url("../pictures/Bitmap (2).png");
+  background-size: cover !important;
+}
+
+.main .ideas .fourth {
+  background: url("../pictures/Bitmap (3).png");
+  background-size: cover !important;
+}
+
+.main .ideas .fifth {
+  width: 64% !important;
+  background: url("../pictures/map.png");
+  background-size: cover !important;
+}
+
+.main .ideas .sixth {
+  background-image: url("../pictures/Bitmap (5).png");
+  background-size: cover !important;
+}
+
+.main .ideas .seventh {
+  background-image: url("../pictures/Bitmap (6).png");
+  background-size: cover !important;
+}
+
+.main .activity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .activity p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #666666;
+}
+
+.main .activity .activity0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.main .activity .activity0 input {
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  width: 299px;
+  color: #666666;
+}
+
+.main .activity .activity0 button {
+  background-color: #FF4E50;
+  border-radius: 30px;
+  border: 0;
+  padding: 12px 30px;
+  margin-left: 10px;
+}
+
+.main .activity .activity0 button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer {
+  width: 100%;
+  border-top: #FF4E50 2px solid;
+  padding: 12px 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .block {
+  width: 20%;
+}
+
+.footer .block .dreamshare {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF4E50;
+  font-size: 20px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */
